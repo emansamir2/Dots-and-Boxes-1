@@ -1,12 +1,6 @@
 #include <stdio.h>
 
-#include "GridDisolay.h"
-
-typedef struct {
-    int score;
-}player;
-player player1;
-player1.score=4;
+#include "GridDisplay.h"
 
 int main(){
     int len = 2;
