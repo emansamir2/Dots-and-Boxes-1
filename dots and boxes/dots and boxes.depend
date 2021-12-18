@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1639777719 source:d:\programming project\dots and boxes\main.c
+	<stdio.h>
+	"GridDisolay.h"
+
+1639777764 d:\programming project\dots and boxes\griddisolay.h
+
