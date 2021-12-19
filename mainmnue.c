@@ -11,6 +11,7 @@ int main() {
    int x;
    scanOfx:
    scanf("%i",&x);
+   system("cls");
 
    switch(x){
 
@@ -19,6 +20,7 @@ int main() {
               printf("Enter 1 for expert\n");
               int level;
               scanf("%i",&level);
+              system("cls");
               if(level!=0 && level!=1){
                   printf("invalid number.Please, enter another number\n");
                   goto scanLevel;
@@ -29,6 +31,7 @@ int main() {
               printf("Enter 1 for 2 players\n");
               int numOfPlayers;
               scanf("%i",&numOfPlayers);
+              system("cls");
               if(numOfPlayers!=0 && numOfPlayers!=1){
                   printf("invalid number.Please, enter another number\n");
                   goto scanNOP;
